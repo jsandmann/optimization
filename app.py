@@ -6,13 +6,13 @@ import mysql
 
 app = Flask(__name__)
 
-import mysql.connector
-mydb = mysql.connector.connect(
-  host="optimized-living.mysql.database.azure.com",
-  user="jsandmann@optimized-living",
-  passwd="Ocarinaoftime0!"
-)
-mycursor = mydb.cursor()
+# import mysql.connector
+# mydb = mysql.connector.connect(
+#   host="optimized-living.mysql.database.azure.com",
+#   user="jsandmann@optimized-living",
+#   passwd="Ocarinaoftime0!"
+# )
+# mycursor = mydb.cursor()
 
 @app.route('/') # home page
 def welcome():
